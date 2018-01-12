@@ -1,0 +1,29 @@
+{
+    "name": "midnight/block-zend",
+    "description": "Bridge between midnight/block and Zend Framework",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudolph Gottesheim",
+            "email": "r.gottesheim@loot.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Midnight\\Block\\Zend\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "midnight/block": "dev-master",
+        "zendframework/zend-servicemanager": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.5",
+        "phpstan/phpstan": "^0.9.1"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
